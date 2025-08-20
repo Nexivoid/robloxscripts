@@ -6,7 +6,7 @@ local function is404(url)
 end
 
 local primaryURL = "https://raw.githubusercontent.com/SuperHackerYT/ElvisHub/refs/heads/main/Elvis-Hub-X.lua"
-local fallbackURL = "https://raw.githubusercontent.com/WareForgeOfficial/robloxscripts/refs/heads/main/elvishubx.lua"
+local fallbackURL = "https://raw.githubusercontent.com/Nexivoid/robloxscripts/refs/heads/main/elvishubx.lua"
 
 local useFallback = is404(primaryURL)
 
