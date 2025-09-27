@@ -1,4 +1,8 @@
-local fcp = game.Workspace.CurrentRooms.50.FigureSetup
-local b = Instance.new("Part")
-b.Name = "FigureCamPos"
-b.Parent = fcp
+local currentRooms = game.Workspace.CurrentRooms
+local door = currentRooms:FindFirstChild("50")
+local FS = door.FigureSetup
+
+local part = Instance.new("Part")
+part.Name = "FigureCamPos"
+part.Parent = FS
+part.Anchored = true
